@@ -1,0 +1,4 @@
+.env
+.vscode
+/local_model
+output.wav

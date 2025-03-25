@@ -1,0 +1,6 @@
+librosa
+transformers
+python-dotenv
+sounddevice
+scipy
+keyboard
