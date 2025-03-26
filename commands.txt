@@ -1,3 +1,18 @@
+git clone https://github.com/rahulhingve/localAiVoiceChat.git
+
+cd localAiVoiceChat
+install espeak-ng for windows 
+https://github.com/espeak-ng/espeak-ng/releases
+
+install ollama 
+then mistral 7b model 
+
+ python --version
+python -m venv ./venv
+
+login to hf cli
+
+
 pip install --pre torch torchvision torchaudio --index-url https://download.pytorch.org/whl/nightly/cu128
 
 pip install phonemizer transformers scipy munch soundfile
@@ -5,6 +20,8 @@ pip install phonemizer transformers scipy munch soundfile
 pip install kokoro
 
 pip install playsound
+
+pip install -r requirements.txt
 
 The model files will be downloaded automatically to your HuggingFace cache directory (usually ~/.cache/huggingface/hub on Linux/Mac or C:/Users/YourUsername/.cache/huggingface/hub on Windows).
 
